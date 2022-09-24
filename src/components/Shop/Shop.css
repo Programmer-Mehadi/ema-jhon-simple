@@ -1,10 +1,19 @@
-.shop-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    padding: 0px 40px;
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 0px 40px;
 }
-.products-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 5px;
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.cart-container {
+  margin-top: 50px;
+  background-color: orange;
+  height: fit-content;
+  padding: 20px 20px;
+  border-radius: 8px;
+  font-family: "Leto";
+  font-size: 22px;
 }

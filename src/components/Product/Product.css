@@ -38,3 +38,11 @@
 .btn-cart:hover {
   background-color: orange;
 }
+.btn-cart{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  font-size: 20px;
+  font-weight: 600;
+}
